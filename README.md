@@ -18,4 +18,9 @@ In your other terminal window, you can see the base functionality by creating an
 `node directory.js CREATE  <your-filename-here>`
 
 To see the current records you've created, use: <br>
-`node directory.js LIST`
+`node directory.js LIST <filename-to-search-for>` <br>
+*Note:* This isn't the intended use or output of this function, it was merely a starting point to get to the next step before running out of time.
+
+## To-do
+* Finish the app's functionality per the challenge specs
+* Smooth out the UX in the CLI to take ONE input (rather than one commmand per file creation/move/delete, etc.) and produce an output with the correct directory structure.
