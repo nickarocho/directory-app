@@ -8,14 +8,14 @@ Clone the directory
 
 `cd` into the cloned directory.
 
-Install dependencies
+Install dependencies <br>
 `npm install`
 
-In a separate terminal window, invoke a MongoDB instance
+In a separate terminal window, invoke a MongoDB instance <br>
 `mongod`
 
-In your other terminal window, you can see the base functionality by creating and adding a directory to the DB:
+In your other terminal window, you can see the base functionality by creating and adding a directory to the DB: <br>
 `node directory.js CREATE  <your-filename-here>`
 
-To see the current records you've created, use:
+To see the current records you've created, use: <br>
 `node directory.js LIST`
