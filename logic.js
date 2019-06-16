@@ -24,14 +24,14 @@ const addDirectory = (dir) => {
     //     delete : 'DELETE'
     // };
 
-    const input = dir.toString().split(' ');
-    let commands = [];
-    for (var i = 0; i < input.length; i++) {
-        if (input[i] === map.equals['CREATE', 'LIST', 'MOVE', 'DELETE']) {
+    // const input = dir.toString().split(' ');
+    // let commands = [];
+    // for (var i = 0; i < input.length; i++) {
+    //     if (input[i] === map.equals['CREATE', 'LIST', 'MOVE', 'DELETE']) {
             // split the command into its own variable
             // push it into the command array
-        }
-    }
+    //     }
+    // }
     Directory.create(dir, (err) => {
         assert.equal(null, err);
         console.info(dir);
